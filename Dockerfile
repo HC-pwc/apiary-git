@@ -11,7 +11,6 @@ RUN apt-get install --yes git ruby-dev gettext curl libssl-dev libreadline-dev z
 
 RUN gem install apiaryio
 
-
-ENTRYPOINT ["bash"]
+CMD ["bash"]
 
 
